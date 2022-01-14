@@ -1,0 +1,65 @@
+Features:
+
+Room Reservation
+Search rooms
+Check in and Check out
+Issue bills
+Data Dictionaries
+These tables below provide the entire database tables details such as Field Name, Descriptions, data types, character lengths.
+
+Table 1: tbl_guest
+
+Field Name	Description	Type	Length
+Guest_id	Guest ID	Int	11
+First_name	Firstname	Varchar	50
+Last_name	Lastname	Varchar	50
+Address	Address	Varchar	50
+Phone_number	Phone Number	Varchar	50
+Email_address	Email Address	Varchar	50
+Table 2: tbl_reservation
+
+Field Name	Description	Type	Length
+Reservation_id	Reservation ID	Int	11
+Guest_id	Guest ID	Int	11
+Room_type_id	Room Type ID	Int	11
+Check_in	Check In	Varchar	50
+Check_out	Check Out	Varchar	50
+Reservation_status	Reservation Status	Int	11
+Table 3: tbl_booking
+
+Field Name	Description	Type	Length
+Booking_id	Booking ID	Int	11
+Room_Type_id	Room Type ID	Int	11
+Guest_id	Guest ID	Int	11
+Check_in_datetime	Check In of Date and Time	Varchar	50
+Check_out_datetime	Check Out of Date and Time	Varchar	50
+Table 4: tbl_ room_type
+
+Field Name	Description	Type	Length
+Room_type_id	Room Type ID	Int	11
+Room_type	Room Type	Varchar	50
+Table 5: tbl_room
+
+Field Name	Description	Type	Length
+Room_id	Room ID	Int	11
+Room_number	Room Number	Int	11
+Room_type_Id	Room Type ID	Varchar	50
+Room_price	Room Price	Int	11
+Room_status	Room Status	Int	11
+Table 6: tbl_payment
+
+Field Name	Description	Type	Length
+Payment_id	Payment ID	Int	11
+Guest_id	Guest ID	Int	11
+Reservation_id	Reservation ID	Int	11
+Add_On	Add On the extra features	Varchar	50
+Room_price	Room Price	Int	50
+Number_of_nights	Number of nights	Int	11
+Total	Total Charges	Int	11
+Payment_status	Payment status	Int	11
+Entity Relationship Diagram
+Entity Relationship Diagram shows the entity relationships in each entity and their supposed functions in each relationship.
+
+
+Database Design Project For ZJM Reservation Management System
+Database Design Project For ZJM Reservation Management System

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -50px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 10px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    background: rgba(5, 99, 136, 0.384);
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#side-1 {
+    top: 50px;
+}
+
+#side-2 {
+    top: 100px;
+}
+
+#side-3 {
+    top: 150px;
+}
+
+#side-4 {
+    top: 200px;
+}
+
+#side-5 {
+    top: 250px;
+}
+#side-6 {
+    top: 300px;
+}
+
+
+.siden img{
+    width:32px;
+    height: 32px;
+    text-align: center;
+    margin-left:25px;
+}
+    </style>
+</head>
+<body class="bg-dark">
+    
+    <div id="mySidenav" class="siden text-center">
+        <a href="#" id="side-1" rel="tooltip" title="Like us on Facebook" data-placement="right"><img src="img/fb.ico"></a>
+        <a href="#"  id="side-2" rel="tooltip" title="Follow us on Instagram" data-placement="right"><img src="img/ins.ico"></a>
+        <a href="#"  id="side-3" rel="tooltip" title="Subscribe on Youtube" data-placement="right"><img src="img/yu.ico"></a>
+        <a href="#"  id="side-4" rel="tooltip" title="Follow us on Twitter" data-placement="right"><img src="img/tw.ico"></a>
+        <a href="#"  id="side-5" rel="tooltip" title="Email us" data-placement="right"><img src="img/Email.ico"></a>
+        <a href="#"  id="side-6" rel="tooltip" title="Our Location" data-placement="right"><img src="img/locateo.png"></a>
+      </div>
+
+</body>
+</html>
