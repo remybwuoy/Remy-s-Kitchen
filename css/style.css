@@ -59,19 +59,16 @@ z-index: 99;
 #side-1 {
   top: 50px;
   cursor: pointer;
-
 }
 
 #side-2 {
   top: 90px;
   cursor: pointer;
-
 }
 
 #side-3 {
   top: 130px;
   cursor: pointer;
-
 }
 
 #side-4 {
@@ -94,7 +91,6 @@ z-index: 99;
 /* import fonts from fonts.css file */ 
 @import url(./fonts.css);
 
-
 /* css variables */ 
 @import url(./partials/_variables.css);
 
@@ -103,8 +99,6 @@ z-index: 99;
 
 
 /* Menu Area */ 
-
-
 .gal-body{
   /*background-image: linear-gradient(rgba(175, 174, 174, 0.377),rgb(175, 174, 174, 0.377)), url(../img/gc.jpg);
 background-size: cover;*/
@@ -115,12 +109,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .site-main .project-area .button-group button{
     border: none;
     text-transform: uppercase;
- color: rgb(255, 255, 255);
- padding: 10px;
- border-radius: 35px;
- margin:0px  10px 20px 0px;
- text-align: center;
-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.253), 0 3px 1px -2px rgba(0, 0, 0, 0.288), 0 1px 5px 0 rgba(0,0,0,.12)
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 35px;
+    margin:0px  10px 20px 0px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.253), 0 3px 1px -2px rgba(0, 0, 0, 0.288), 0 1px 5px 0 rgba(0,0,0,.12)
 }
 
 .button-group button:hover{
@@ -141,10 +135,6 @@ border-radius: 10px;
  .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
- 
-
-
-
 /*********************** Demo - 3 *******************/
 .box3{width: 300px; height: 300px;box-shadow:0 0 3px rgba(0,0,0,.3);position:relative;border-radius: 6px;  margin:10px ;}
 .box3 .box-content,.box3:after,.box3:before{position:absolute;left:7%;right:7%;transition:all .3s}
