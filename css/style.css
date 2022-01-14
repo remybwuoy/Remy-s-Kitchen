@@ -23,7 +23,6 @@ html{
 }
 body{
   font-family: "Montserrat";
-
 }
 
 h1{
@@ -31,7 +30,7 @@ h1{
 }
 
 p{
-  font-family: Montserrat;
+  font-family: "Montserrat";
 }
 
 .header-image{
