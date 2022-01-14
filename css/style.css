@@ -131,7 +131,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .project-area .our-project .img a img{
 border-radius: 10px;  
 }
-
  .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
