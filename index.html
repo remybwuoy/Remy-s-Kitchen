@@ -557,37 +557,36 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 
     <script>
-$(document).ready(function () {
+    $(document).ready(function () {
 
 
-let $btns = $('.project-area .button-group button');
+    let $btns = $('.project-area .button-group button');
 
 
-$btns.click(function (e) {
+    $btns.click(function (e) {
 
-    $('.project-area .button-group button').removeClass('active');
-    e.target.classList.add('active');
+        $('.project-area .button-group button').removeClass('active');
+        e.target.classList.add('active');
 
-    let selector = $(e.target).attr('data-filter');
-    $('.project-area .grid').isotope({
-        filter: selector
+        let selector = $(e.target).attr('data-filter');
+        $('.project-area .grid').isotope({
+            filter: selector
+        });
+
+        return false;
+    })
+
+    $('.project-area .button-group #btn1').trigger('click');
+
+    $('.project-area .grid .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery: { enabled: true }
     });
 
-    return false;
-})
-
-$('.project-area .button-group #btn1').trigger('click');
-
-$('.project-area .grid .test-popup-link').magnificPopup({
-    type: 'image',
-    gallery: { enabled: true }
-});
-
-});
+    });
 
     </script>
-   
-
+  
   <script>
     AOS.init();
   </script>
