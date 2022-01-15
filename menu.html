@@ -463,17 +463,17 @@
         </div>
       </div>
     </div> 
-        <div class="foot bg-d-foot">
-          <div class="container">
-            <div class="row-center">
-              <div class="col-sm-12">
-              <p class="text-center">© 2020 Remy's Kitchen. All rights reserved | Design by <a href="http://Awumeyremy@gmail.com/" class="text-warning">RemyMar</a></p>
-              <a href="#sect-c" class="hero-top text-right"><img src="img/bb-up.ico" alt="to top" title="To Top" ></a> 
-              </div>
-            </div>
+    <div class="foot bg-d-foot">
+      <div class="container">
+        <div class="row-center">
+          <div class="col-sm-12">
+          <p class="text-center">© 2020 Remy's Kitchen. All rights reserved | Design by <a href="http://Awumeyremy@gmail.com/" class="text-warning">RemyMar</a></p>
+          <a href="#sect-c" class="hero-top text-right"><img src="img/bb-up.ico" alt="to top" title="To Top" ></a> 
           </div>
         </div>
       </div>
+    </div>
+  </div>
   <script>
     AOS.init();
   </script>
@@ -489,13 +489,9 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 
   <script>
-$(document).ready(function () {
-
-
+    $(document).ready(function () {
     let $btns = $('.project-area .button-group button');
-
     $btns.click(function (e) {
-
         $('.project-area .button-group button').removeClass('active');
         e.target.classList.add('active');
 
@@ -503,7 +499,6 @@ $(document).ready(function () {
         $('.project-area .grid').isotope({
             filter: selector
         });
-
         return false;
     })
 
@@ -526,10 +521,10 @@ $(document).ready(function () {
       // the body of this function is in assets/js/now-ui-kit.js
       nowuiKit.initSliders();
     });
-</script>
-<script>
+  </script>
+  <script>
     function scrollToDownload() {
-
+      
       if ($('.section-download').length != 0) {
         $("html, body").animate({
           scrollTop: $('.section-download').offset().top
