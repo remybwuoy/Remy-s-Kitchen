@@ -175,7 +175,7 @@ border-radius: 10px;
 .about{
   margin:10px 0px 30px 0px ;
   padding: 20px;
-  font-family: Montserrat;
+  font-family:" Montserrat";
 
 }
 .article img{
@@ -205,14 +205,12 @@ z-index: 9999;
 
   .cooks{background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(3, 3, 3, 0.658)), url(../img/0.jpg);
     background-attachment: fixed; background-size: cover; width:100%;margin: 30px 0px 0px 0px;
-    font-family: Montserrat;padding: 10px;filter:blur(0.5); padding: 30px;
+    font-family:" Montserrat";padding: 10px;filter:blur(0.5); padding: 30px;
     }
 
   @media only screen and (max-width:766px)
   {
-
   }
-
 /*********************** Demo - 16 *******************/
 .box16{text-align:center;color:#fff;position:relative; border-radius:10px; margin-top:30px;}
 .box16 .box-content,.box16:after{width:100%;position:absolute;left:0}
@@ -248,7 +246,7 @@ h4{
 
 .sect1 h6{
   padding: 5px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 25px;
   font-weight: bold;
 }
@@ -270,7 +268,7 @@ h4{
 .sect4  h6{
   padding: 5px;
   margin-top: -20px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 25px;
   font-weight: bold;
 }
@@ -340,7 +338,7 @@ opacity: 10;
 
 h2{
     padding:50px;
-      font-family: Montserrat;
+      font-family: "Montserrat";
       font-style: italic;
       font-weight: bolder;
   text-shadow:2px 1px 1px rgb(243, 141, 7);
@@ -352,7 +350,7 @@ h2{
   }
 
   .project-area h6{
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 35px;
   font-weight: bold;
   margin-top: 60px;
@@ -433,7 +431,7 @@ margin-top: -65px;
     display: block;
     transition: all 0.5s  ease-out;
     color: #ff8800;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     transform: scale(1.08);}
 
 .btn,
@@ -465,7 +463,7 @@ margin-top: -65px;
   -o-transition: all 300ms ease 0s;
   -ms-transition: all 300ms ease 0s;
   transition: all 300ms ease 0s;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   background: transparent;
 }
 
@@ -500,7 +498,7 @@ margin-top: -65px;
   border: 1px solid transparent;
   border-radius: 30px;
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   padding: 11px 23px;
   line-height: 1.5;
 }
@@ -524,7 +522,7 @@ margin-top: -65px;
 
 .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
   font-size: 14px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   position: relative;
   top: 1px;
   margin-right: 3px;
@@ -1930,18 +1928,15 @@ width: 100%;
 z-index: 9999;
 border-radius: 5px;
 box-shadow: 2px 3px 4px 2px #222121;
-font-family: Montserrat;
+font-family: "Montserrat";
 }
 
 .rev-head p{
 margin:25px 0px 50px 0px;
 }
-
-
 .reserve-form.focus{
   background: transparent;
   background:rgba(0,0,0,0.5);
-
 }
 
 .reserve-form input
